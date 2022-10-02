@@ -19,6 +19,7 @@ const question1 = () => {
     });
   });
 };
+
 const question2 = (file) => {
   return new Promise((resolve, reject) => {
     rl.question(`Загадайте, 1 или 2 \n`, (userInput) => {
